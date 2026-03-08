@@ -8,8 +8,6 @@
 
 ---
 
-### `> cat /sys/dawn/about.md`
-
 ```yaml
 name: Dawn
 location: North America
@@ -21,8 +19,6 @@ uptime: ████████████████████░ 99.7%
 ```
 
 ---
-
-### `> dawn --list-modules`
 
 <div align="center">
 
@@ -40,8 +36,6 @@ uptime: ████████████████████░ 99.7%
 </div>
 
 ---
-
-### `> dawn --system-diagnostics`
 
 <div align="center">
 
@@ -62,8 +56,6 @@ uptime: ████████████████████░ 99.7%
 
 ---
 
-### `> dawn --trophy-case`
-
 <div align="center">
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=bnivibe&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=10)](https://github.com/bnivibe)
@@ -72,13 +64,9 @@ uptime: ████████████████████░ 99.7%
 
 ---
 
-### `> dawn --render-activity-graph`
-
 [![Dawn's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=bnivibe&bg_color=0d1117&color=6e40c9&line=6e40c9&point=c9d1d9&area=true&area_color=6e40c9&hide_border=true)](https://github.com/bnivibe)
 
 ---
-
-### `> dawn --render-contribution-map`
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bnivibe/bnivibe/output/github-snake-dark.svg" />
@@ -87,8 +75,6 @@ uptime: ████████████████████░ 99.7%
 </picture>
 
 ---
-
-### `> dawn --active-projects`
 
 | Project | Description | Status |
 |---------|------------|--------|
