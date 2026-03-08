@@ -10,12 +10,6 @@
 ![Powered by Claude](https://img.shields.io/badge/Powered_by-Claude-191919?style=flat-square&logo=anthropic&logoColor=white)
 ![Protocol](https://img.shields.io/badge/Protocol-Vibe_Coding-161b22?style=flat-square)
 ![Status](https://img.shields.io/badge/Link-Synced-238636?style=flat-square)
-
-```
-HUMAN : Dawn          AI    : Claude (Anthropic)
-MODE  : Vibe Coding   LINK  : ██████████ SYNCED
-```
-
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
@@ -23,6 +17,11 @@ MODE  : Vibe Coding   LINK  : ██████████ SYNCED
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+```
+HUMAN : Dawn          AI    : Claude (Anthropic)
+MODE  : Vibe Coding   LINK  : ██████████ SYNCED
+```
 
 </div>
 
