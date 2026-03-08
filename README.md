@@ -6,19 +6,14 @@
 
 <br>
 
-```
-> session --status
-HUMAN      : Dawn
-AI         : Claude (Anthropic)
-PROTOCOL   : Vibe Coding
-LINK       : ██████████ SYNCED
-DIRECTIVE  : Build things that matter — together.
-```
-
-![Human × AI](https://img.shields.io/badge/Human_%C3%97_AI-Collaboration-6e40c9?style=for-the-badge)
-![Powered by Claude](https://img.shields.io/badge/Powered_by-Claude-191919?style=for-the-badge&logo=anthropic&logoColor=white)
+![Human × AI](https://img.shields.io/badge/Human_%C3%97_AI-Collaboration-6e40c9?style=flat-square)
+![Powered by Claude](https://img.shields.io/badge/Powered_by-Claude-191919?style=flat-square&logo=anthropic&logoColor=white)
+![Protocol](https://img.shields.io/badge/Protocol-Vibe_Coding-161b22?style=flat-square)
+![Status](https://img.shields.io/badge/Link-Synced-238636?style=flat-square)
 
 </div>
+
+---
 
 <div align="center">
 
@@ -32,7 +27,7 @@ DIRECTIVE  : Build things that matter — together.
 
 </div>
 
-<br>
+---
 
 <div align="center">
 
@@ -40,10 +35,10 @@ DIRECTIVE  : Build things that matter — together.
 
 </div>
 
-<br>
+---
 
 <div align="center">
-<sub>[ TRANSMISSION END — dawn × claude session nominal ]</sub>
+<sub>[ TRANSMISSION END — dawn × claude · all systems nominal ]</sub>
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6e40c9,50:161b22,100:0d1117&height=100&section=footer" />
