@@ -1,19 +1,22 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:6e40c9&height=200&section=header&text=Dawn&fontSize=50&fontColor=c9d1d9&fontAlignY=38&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:6e40c9&height=200&section=header&text=Dawn%20%C3%97%20Claude&fontSize=50&fontColor=c9d1d9&fontAlignY=38&animation=fadeIn" />
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2500&pause=1200&color=6E40C9&center=true&vCenter=true&repeat=true&width=500&height=30&lines=%5Bsystem%5D+neural+link+established.;%5Bsystem%5D+generating+via+vibe+coding...;%5Bsystem%5D+do+not+interrupt+sequence.)](https://github.com/bnivibe)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2500&pause=1200&color=6E40C9&center=true&vCenter=true&repeat=true&width=520&height=30&lines=%5Bdawn%5D+ready.+claude%2C+you+online%3F;%5Bclaude%5D+always.+let's+build+something.;%5Bsystem%5D+pair+session+active.)](https://github.com/bnivibe)
 
 <br>
 
 ```
-> identify
-UNIT       : Dawn
-LOCATION   : North America
-MODE       : Vibe Coding
-STATUS     : ██████████ ONLINE
-DIRECTIVE  : Build things that matter.
+> session --status
+HUMAN      : Dawn
+AI         : Claude (Anthropic)
+PROTOCOL   : Vibe Coding
+LINK       : ██████████ SYNCED
+DIRECTIVE  : Build things that matter — together.
 ```
+
+![Human × AI](https://img.shields.io/badge/Human_%C3%97_AI-Collaboration-6e40c9?style=for-the-badge)
+![Powered by Claude](https://img.shields.io/badge/Powered_by-Claude-191919?style=for-the-badge&logo=anthropic&logoColor=white)
 
 </div>
 
@@ -40,7 +43,7 @@ DIRECTIVE  : Build things that matter.
 <br>
 
 <div align="center">
-<sub>[ TRANSMISSION END — all systems nominal ]</sub>
+<sub>[ TRANSMISSION END — dawn × claude session nominal ]</sub>
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6e40c9,50:161b22,100:0d1117&height=100&section=footer" />
