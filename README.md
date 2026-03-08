@@ -33,17 +33,6 @@ DIRECTIVE  : Build things that matter.
 
 <div align="center">
 
-<a href="https://github.com/bnivibe">
-  <img height="170em" src="https://github-readme-stats-bnivibe.vercel.app/api?username=bnivibe&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=6e40c9&icon_color=6e40c9&text_color=c9d1d9&ring_color=6e40c9" />
-</a>
-<a href="https://github.com/bnivibe">
-  <img height="170em" src="https://github-readme-stats-bnivibe.vercel.app/api/top-langs/?username=bnivibe&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=6e40c9&text_color=c9d1d9" />
-</a>
-
-</div>
-
-<div align="center">
-
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=bnivibe&theme=github-dark-blue&hide_border=true&background=0D1117&ring=6E40C9&fire=6E40C9&currStreakLabel=6E40C9&sideLabels=C9D1D9&dates=8B949E&stroke=21262D)](https://github.com/bnivibe)
 
 </div>
