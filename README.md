@@ -11,6 +11,11 @@
 ![Protocol](https://img.shields.io/badge/Protocol-Vibe_Coding-161b22?style=flat-square)
 ![Status](https://img.shields.io/badge/Link-Synced-238636?style=flat-square)
 
+```
+HUMAN : Dawn          AI    : Claude (Anthropic)
+MODE  : Vibe Coding   LINK  : ██████████ SYNCED
+```
+
 </div>
 
 ---
