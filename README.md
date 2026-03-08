@@ -2,7 +2,18 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=1500&color=6E40C9&center=true&vCenter=true&repeat=true&width=435&height=30&lines=building+things+that+matter.)](https://github.com/bnivibe)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2500&pause=1200&color=6E40C9&center=true&vCenter=true&repeat=true&width=500&height=30&lines=%5Bsystem%5D+neural+link+established.;%5Bsystem%5D+generating+via+vibe+coding...;%5Bsystem%5D+do+not+interrupt+sequence.)](https://github.com/bnivibe)
+
+<br>
+
+```
+> identify
+UNIT       : Dawn
+LOCATION   : North America
+MODE       : Vibe Coding
+STATUS     : ██████████ ONLINE
+DIRECTIVE  : Build things that matter.
+```
 
 </div>
 
@@ -23,10 +34,10 @@
 <div align="center">
 
 <a href="https://github.com/bnivibe">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=bnivibe&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=6e40c9&icon_color=6e40c9&text_color=c9d1d9&ring_color=6e40c9" />
+  <img height="170em" src="https://github-readme-stats-bnivibe.vercel.app/api?username=bnivibe&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=6e40c9&icon_color=6e40c9&text_color=c9d1d9&ring_color=6e40c9" />
 </a>
 <a href="https://github.com/bnivibe">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bnivibe&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=6e40c9&text_color=c9d1d9" />
+  <img height="170em" src="https://github-readme-stats-bnivibe.vercel.app/api/top-langs/?username=bnivibe&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=6e40c9&text_color=c9d1d9" />
 </a>
 
 </div>
@@ -35,6 +46,12 @@
 
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=bnivibe&theme=github-dark-blue&hide_border=true&background=0D1117&ring=6E40C9&fire=6E40C9&currStreakLabel=6E40C9&sideLabels=C9D1D9&dates=8B949E&stroke=21262D)](https://github.com/bnivibe)
 
+</div>
+
+<br>
+
+<div align="center">
+<sub>[ TRANSMISSION END — all systems nominal ]</sub>
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6e40c9,50:161b22,100:0d1117&height=100&section=footer" />
