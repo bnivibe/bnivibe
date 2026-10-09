@@ -32,12 +32,11 @@ public class Dawn {
 
 ```mermaid
 flowchart LR
-    T["Task"] --> B["New branch"]
-    B --> C["Claude Code<br/>with my own skills"]
-    C --> P["Pull request<br/>tests and review"]
-    P --> M["Merge to main"]
-    M --> R["Cloud routines run<br/>the merged code<br/>the next morning"]
-    G["Guard plugins<br/>no commits to main<br/>no risky deletes<br/>secrets masked"] -.-> C
+    B["Branch<br/>per task"] --> C["Claude Code<br/>+ my skills"]
+    C --> P["Pull request<br/>tests, review"]
+    P --> M["Merge<br/>to main"]
+    M --> R["Cloud routine<br/>next morning"]
+    C -.- G["Guard<br/>plugins"]
 ```
 
 - **Claude Code, customized** · 13 skills I built for study, research and note-keeping, plus three plugins with tests: one blocks commits and pushes to `main` and risky deletes, one masks secrets on screen, one shows the current branch above the prompt.
@@ -52,22 +51,18 @@ flowchart LR
 - **[dawnbase](https://github.com/bnivibe/dawnbase)** · personal knowledge archive · Next.js, Supabase
 - **ai-trend-digest** · daily AI developer digest: collects posts from YouTube, Hacker News and Reddit, clusters them with Claude, and posts to Discord every morning · Python
 
-<details>
-<summary>How ai-trend-digest runs every morning</summary>
+ai-trend-digest, every morning:
 
 ```mermaid
 flowchart LR
-    R(["Cloud routine<br/>07:00 daily"]) --> C["collect.py<br/>sources fetched in parallel<br/>time budget and retries"]
-    C --> J[("candidates.json")]
-    J --> L["Claude<br/>clusters five topics"]
-    L --> V{"schema<br/>valid?"}
+    R(["07:00<br/>routine"]) --> C["collect.py<br/>parallel fetch"]
+    C --> L["Claude<br/>clusters topics"]
+    L --> V{"valid?"}
     V -- no --> L
-    V -- yes --> D["Discord<br/>five embeds"]
-    C -. too few sources .-> F["Failure notice"]
+    V -- yes --> D["Discord"]
+    C -. too few .-> F["Failure<br/>notice"]
     F --> D
 ```
-
-</details>
 
 ### Reach me
 
