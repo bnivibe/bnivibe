@@ -1,38 +1,38 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:6e40c9&height=200&section=header&text=Dawn%20%C3%97%20Claude&fontSize=50&fontColor=c9d1d9&fontAlignY=38&animation=fadeIn" />
+## Hi, I'm Dawn 👋
 
-<div align="center">
+Backend software engineer in Vancouver, BC. I like systems that stay correct under load.
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2500&pause=1200&color=6E40C9&center=true&vCenter=true&repeat=true&width=520&height=30&lines=%5Bdawn%5D+ready.+claude%2C+you+online%3F;%5Bclaude%5D+always.+let's+build+something.;%5Bsystem%5D+pair+session+active.)](https://github.com/bnivibe)
+```java
+public class Dawn {
 
-<br>
+    String role       = "Backend Software Engineer";
+    String location   = "Vancouver, BC";
+    String experience = "7+ years on high-traffic e-commerce and gaming platforms";
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+    List<String> focus = List.of(
+            "distributed systems", "data consistency", "event-driven design");
 
-![Human × AI](https://img.shields.io/badge/Human_%C3%97_AI-Collaboration-6e40c9?style=flat-square)
-![Powered by Claude](https://img.shields.io/badge/Powered_by-Claude-191919?style=flat-square&logo=anthropic&logoColor=white)
-![Protocol](https://img.shields.io/badge/Protocol-Vibe_Coding-161b22?style=flat-square)
-![Status](https://img.shields.io/badge/Link-Synced-238636?style=flat-square)
+    List<String> stack = List.of(
+            "Java", "Spring Boot", "Kafka", "MySQL", "Redis",
+            "TypeScript", "Angular", "Vue.js");
 
-</div>
+    // most of my professional code lives in private repositories
+    List<String> sideProjects = List.of("dawndeck", "Bloomlog", "dawnbase");
 
-<br>
+    String openTo = "Backend and full-stack Software Engineer roles in Canada";
+}
+```
 
-<div align="center">
+<p>
+  <img src="https://skillicons.dev/icons?i=java,spring,kafka,mysql,redis,ts,angular,vue,docker,jenkins,aws,gcp&perline=12" alt="Java, Spring, Kafka, MySQL, Redis, TypeScript, Angular, Vue.js, Docker, Jenkins, AWS, Google Cloud" />
+</p>
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=bnivibe&theme=github-dark-blue&hide_border=true&background=0D1117&ring=6E40C9&fire=6E40C9&currStreakLabel=6E40C9&sideLabels=C9D1D9&dates=8B949E&stroke=21262D)](https://github.com/bnivibe)
+### Side projects
 
-</div>
+- **dawndeck** · spaced-repetition learning platform · TypeScript, Next.js, PostgreSQL
+- **Bloomlog** · skincare tracking app for Android · React, TypeScript, Supabase
+- **[dawnbase](https://github.com/bnivibe/dawnbase)** · personal knowledge archive · Next.js, Supabase
 
-<br>
+### Reach me
 
-<div align="center">
-<sub>[ TRANSMISSION END — dawn × claude · all systems nominal ]</sub>
-</div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:6e40c9,50:161b22,100:0d1117&height=100&section=footer" />
+[LinkedIn](https://www.linkedin.com/in/bnivibe) · [bnivibe333@gmail.com](mailto:bnivibe333@gmail.com)
