@@ -49,7 +49,7 @@ flowchart LR
 - **dawndeck** · spaced-repetition learning platform · TypeScript, Next.js, PostgreSQL
 - **Bloomlog** · skincare tracking app for Android · React, TypeScript, Supabase
 - **[dawnbase](https://github.com/bnivibe/dawnbase)** · personal knowledge archive · Next.js, Supabase
-- **ai-trend-digest** · daily AI developer digest: collects posts from YouTube, Hacker News and Reddit, clusters them with Claude, and posts to Discord every morning · Python
+- **[ai-trend-digest](https://github.com/bnivibe/ai-trend-digest)** · daily AI developer digest: collects posts from YouTube, Hacker News and Reddit, clusters them with Claude, and posts to Discord every morning · Python
 
 ai-trend-digest, every morning:
 
