@@ -18,7 +18,7 @@ public class Dawn {
 
     // most of my professional code lives in private repositories
     List<String> sideProjects = List.of(
-            "dawndeck", "Bloomlog", "dawnbase", "ai-trend-digest");
+            "dawndeck", "Bloomlog", "dawnbase", "ai-trend-digest", "leetcode");
 
     String openTo = "Backend and full-stack Software Engineer roles in Canada";
 }
@@ -50,6 +50,7 @@ flowchart LR
 - **Bloomlog** · skincare tracking app for Android · React, TypeScript, Supabase
 - **[dawnbase](https://github.com/bnivibe/dawnbase)** · personal knowledge archive · Next.js, Supabase
 - **[ai-trend-digest](https://github.com/bnivibe/ai-trend-digest)** · daily AI developer digest: collects posts from YouTube, Hacker News and Reddit, clusters them with Claude, and posts to Discord every morning · Python
+- **[leetcode](https://github.com/bnivibe/leetcode)** · daily coding practice: LeetCode Top Interview 150, solved by hand in Java, then rewritten in Kotlin, with notes on what I missed and what to practice next
 
 ai-trend-digest, every morning:
 
