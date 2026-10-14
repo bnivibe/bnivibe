@@ -95,7 +95,60 @@ flowchart LR
     DB --> W["Next.js site<br/>I publish"]
 ```
 
-Also building, in private repositories: **dawndeck**, a spaced-repetition learning platform whose English review cards Claude builds from my tutoring notes (TypeScript, Next.js, PostgreSQL), and **Bloomlog**, a skincare tracking app for Android (React, TypeScript, Supabase).
+### Private repositories
+
+These hold personal data (schedules, study notes, my own setup), so the code stays private. What each one does, and where Claude fits in:
+
+#### claude-config
+
+My Claude Code setup, kept as code: 13 skills, commands, agents, hooks and three tested plugins, restored onto a new machine by one bootstrap script. The skills cover what I do with Claude: research digests, interview and English practice, note-keeping and planning. The plugins are the guardrails behind the workflow diagram above: one denies commits and pushes to `main`, risky deletes and commits without Claude's co-author line; one masks secrets on screen; one shows the current branch above the prompt.
+
+<sub>Python · Shell · TypeScript · 79 merged pull requests</sub>
+
+#### daily-routine
+
+My plan for the day, posted to Discord at 05:00 by a Claude cloud routine. The schedule, the day's English expressions and tongue twisters with their pronunciation all live in the repo as data, and tests keep the schedule consistent, so a date-specific change cannot point at a slot that does not exist. The same data builds a day-by-day study guide page.
+
+<sub>Python standard library · 93 tests</sub>
+
+```mermaid
+flowchart LR
+    R(["05:00 Claude<br/>routine"]) --> S["send_today.py"]
+    J["Schedule and<br/>expressions"] --> S
+    S --> D["Discord"]
+    J --> G["Study guide<br/>page"]
+```
+
+#### wiki
+
+A knowledge base that Claude maintains, following the LLM-wiki pattern: 34 pages of sources, topics and entities. A link or topic goes through capture, then an investigation in which agents check each claim, then compose. I review the surviving and rejected claims before anything is written, and the diff before it is committed. Originals stay immutable outside the repo, pages point to them, and a lint script must pass before each commit.
+
+<sub>Python · JavaScript · tests for capture and lint</sub>
+
+```mermaid
+flowchart LR
+    S["Link<br/>or topic"] --> C["Capture"]
+    C --> V["Agents check<br/>each claim"]
+    V --> G1{"I review<br/>claims"}
+    G1 --> W["Compose<br/>pages"]
+    W --> G2{"I review diff,<br/>lint passes"}
+```
+
+#### dawndeck
+
+My start page and study app: bookmarks, city cards with local time and weather, and spaced-repetition review of English and CS cards on my phone. Nobody types the cards in. My English practice sessions with Claude end in correction tables, and dawndeck extracts those tables into Leitner cards, skipping any table shape it does not recognize instead of guessing at it.
+
+<sub>TypeScript · Next.js · PostgreSQL · 40 test files · 25 merged pull requests</sub>
+
+```mermaid
+flowchart LR
+    P["Practice<br/>with Claude"] --> N["Correction<br/>tables"]
+    N --> E["Extractor<br/>fail-closed"]
+    E --> B[("Leitner<br/>boxes")]
+    B --> R["Review<br/>on phone"]
+```
+
+Also building: **Bloomlog**, a skincare tracking app for Android (React, TypeScript, Supabase).
 
 ### Reach me
 
