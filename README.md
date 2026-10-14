@@ -69,7 +69,7 @@ flowchart LR
 
 How I argue a decision through before making it. Three to five personas from a 28-person roster, each a Claude subagent with a job and a known bias, propose ideas in parallel, then each attacks the strongest idea that is not its own. The moderator fact-checks every claim and synthesizes. I approve the cast and decide, and when the real outcome is in, each persona's scorecard is updated so the next cast picks better. Transcripts stay private; a privacy guard in the hooks and CI keeps personal details out of the public repo.
 
-<sub>Python · 51 tests · CI checks every commit</sub>
+<sub>Python · 106 tests · CI checks every commit</sub>
 
 ```mermaid
 flowchart LR
@@ -97,7 +97,7 @@ flowchart LR
 
 #### [vancouver-room-hunt](https://github.com/bnivibe/vancouver-room-hunt)
 
-How I found a room share in Vancouver as a newcomer, with no job and no Canadian credit history. Claude searched every live source on each run, read every post body, checked addresses against BC Assessment and land-title records, and priced each room as rent plus utilities plus the transit its address forces. I sent every message, went to every viewing and signed. Each mistake Claude made became a dated rule in the skill, and the field notes keep the know-how and the experiences behind each one.
+How I found a room share in Vancouver as a newcomer with no Canadian credit history. Claude searched every live source on each run, read every post body, checked addresses against BC Assessment and, for finalists, land-title records, and priced each room as rent plus utilities plus the transit its address forces. I sent every message, went to every viewing and signed. Each mistake Claude made became a dated rule in the skill, and the field notes keep the know-how and the experiences behind each one.
 
 <sub>Claude Code skill · Python standard library · 70 tests · CI checks every commit</sub>
 
