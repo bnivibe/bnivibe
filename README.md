@@ -19,7 +19,7 @@ public class Dawn {
     // most of my professional code lives in private repositories
     List<String> sideProjects = List.of(
             "ai-trend-digest", "persona-debate-lab", "dawnbase",
-            "dawndeck", "Bloomlog");
+            "vancouver-room-hunt", "dawndeck", "Bloomlog");
 
     String openTo = "Backend and full-stack Software Engineer roles in Canada";
 }
@@ -93,6 +93,22 @@ flowchart LR
     C --> A["Article + sources<br/>+ verification"]
     A --> DB[("PostgreSQL")]
     DB --> W["Next.js site<br/>I publish"]
+```
+
+#### [vancouver-room-hunt](https://github.com/bnivibe/vancouver-room-hunt)
+
+How I found a room share in Vancouver as a newcomer, with no job and no Canadian credit history. Claude searched every live source on each run, read every post body, checked addresses against BC Assessment and land-title records, and priced each room as rent plus utilities plus the transit its address forces. I sent every message, went to every viewing and signed. Each mistake Claude made became a dated rule in the skill, and the field notes keep the know-how and the experiences behind each one.
+
+<sub>Claude Code skill · Python standard library · 70 tests · CI checks every commit</sub>
+
+```mermaid
+flowchart LR
+    P["My criteria"] --> S["Claude searches<br/>every source"]
+    S --> R["Reads posts<br/>checks records"]
+    R --> T["Total cost<br/>score.py"]
+    T --> D["Every listing<br/>to my phone"]
+    D --> I["I view<br/>and decide"]
+    I -. corrections .-> S
 ```
 
 ### Private repositories
