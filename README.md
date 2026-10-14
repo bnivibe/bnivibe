@@ -18,7 +18,8 @@ public class Dawn {
 
     // most of my professional code lives in private repositories
     List<String> sideProjects = List.of(
-            "dawndeck", "Bloomlog", "dawnbase", "ai-trend-digest", "leetcode");
+            "ai-trend-digest", "persona-debate-lab", "leetcode",
+            "dawnbase", "dawndeck", "Bloomlog");
 
     String openTo = "Backend and full-stack Software Engineer roles in Canada";
 }
@@ -40,17 +41,20 @@ flowchart LR
 ```
 
 - **Claude Code, customized** · 13 skills I built for study, research and note-keeping, plus three plugins with tests: one blocks commits and pushes to `main` and risky deletes, one masks secrets on screen, one shows the current branch above the prompt.
-- **A pull request per change, even solo** · 170+ merged across my own repositories since March 2026.
-- **AI on a schedule** · two Claude cloud routines check out a repository and run every morning: an AI news digest and a daily planning message.
+- **Debates before big decisions** · I put real decisions through multi-persona AI debates and keep each persona's record against what happened next, so the next debate casts better. The method is public in [persona-debate-lab](https://github.com/bnivibe/persona-debate-lab).
+- **Still solving by hand** · I'm working through LeetCode's Top Interview 150 without AI, Java first, then I critique a Claude solution and port mine to Kotlin, in [leetcode](https://github.com/bnivibe/leetcode).
+- **A pull request per change, even solo** · 200+ merged across my own repositories since March 2026.
+- **AI on a schedule** · two Claude cloud routines check out a repository and run every morning.
 - **Setup in git** · my Claude Code setup lives in a repository, and a bootstrap script restores it on a new machine.
 
-### Side projects
+### Public repositories
 
-- **dawndeck** · spaced-repetition learning platform · TypeScript, Next.js, PostgreSQL
-- **Bloomlog** · skincare tracking app for Android · React, TypeScript, Supabase
-- **[dawnbase](https://github.com/bnivibe/dawnbase)** · personal knowledge archive · Next.js, Supabase
-- **[ai-trend-digest](https://github.com/bnivibe/ai-trend-digest)** · daily AI developer digest: collects posts from YouTube, Hacker News and Reddit, clusters them with Claude, and posts to Discord every morning · Python
-- **[leetcode](https://github.com/bnivibe/leetcode)** · daily coding practice: LeetCode Top Interview 150, solved by hand in Java, then rewritten in Kotlin, with notes on what I missed and what to practice next
+| Repository | What it is | Built with |
+|---|---|---|
+| [ai-trend-digest](https://github.com/bnivibe/ai-trend-digest) | Daily AI developer digest. Collects posts from YouTube, Hacker News, Reddit and more, has Claude cluster them into five topics, and posts to Discord every morning. Unattended since September 2026. | Python standard library · 79 tests |
+| [persona-debate-lab](https://github.com/bnivibe/persona-debate-lab) | A method for multi-persona AI debates: a 28-persona roster, per-persona scorecards, lessons, and a privacy guard that keeps personal details out of the public repo. | Python · 51 tests · CI checks every commit |
+| [leetcode](https://github.com/bnivibe/leetcode) | Top Interview 150, started October 2026. Each problem gets my notes on what I missed and what to practice next. | Java · Kotlin |
+| [dawnbase](https://github.com/bnivibe/dawnbase) | Personal knowledge archive. | Next.js · Supabase · Drizzle ORM · Vitest, Playwright |
 
 ai-trend-digest, every morning:
 
@@ -64,6 +68,8 @@ flowchart LR
     C -. too few .-> F["Failure<br/>notice"]
     F --> D
 ```
+
+Also building, in private repositories: **dawndeck**, a spaced-repetition learning platform (TypeScript, Next.js, PostgreSQL), and **Bloomlog**, a skincare tracking app for Android (React, TypeScript, Supabase).
 
 ### Reach me
 
