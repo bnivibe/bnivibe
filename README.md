@@ -19,7 +19,7 @@ public class Dawn {
     // most of my professional code lives in private repositories
     List<String> sideProjects = List.of(
             "ai-trend-digest", "persona-debate-lab", "dawnbase",
-            "vancouver-room-hunt", "leetcode", "dawndeck", "Bloomlog");
+            "vancouver-room-hunt", "coding-practice", "dawndeck", "Bloomlog");
 
     String openTo = "Backend and full-stack Software Engineer roles in Canada";
 }
@@ -111,15 +111,15 @@ flowchart LR
     I -. corrections .-> S
 ```
 
-#### [leetcode](https://github.com/bnivibe/leetcode)
+#### [coding-practice](https://github.com/bnivibe/coding-practice)
 
-Coding practice on LeetCode's Top Interview 150, started October 2026. I solve each problem by hand in the LeetCode editor, with no AI. The solutions go into the repo unchanged and under my name alone. Claude reads my submission history, every wrong answer and the change that fixed it, asks me why I changed the code when the history alone cannot say, and drafts the notes, which carry its co-author mark. The commit history shows which part is whose.
+Coding practice, one folder per platform, started October 2026 with LeetCode's Top Interview 150. I solve each problem by hand in the platform's editor, with no AI. The solutions go into the repo unchanged and under my name alone. Claude reads my submission history, every wrong answer and the change that fixed it, asks me why I changed the code when the history alone cannot say, and drafts the notes, which carry its co-author mark. The commit history shows which part is whose.
 
 <sub>Java</sub>
 
 ```mermaid
 flowchart LR
-    S["I solve it<br/>no AI"] --> A["Accepted on<br/>LeetCode"]
+    S["I solve it<br/>no AI"] --> A["Accepted on<br/>the platform"]
     A --> H["Claude reads<br/>submissions"]
     H --> Q["Asks me why<br/>code changed"]
     Q --> N["Notes by Claude,<br/>code by me"]
