@@ -1,6 +1,6 @@
 # How I work with AI
 
-I use Claude Code as an assistant in nearly everything I do, not only code: research, study and interview practice, English corrections, planning my day, keeping notes, even finding a room in a new city. Because it touches so much, I run it the way I run a backend system: clear ownership, rules enforced in code, every change checked, failures planned for, and a record of what happened.
+I use Claude Code as an assistant in nearly everything I do, not only code: research, study, English corrections, planning my day, keeping notes, even finding a room in a new city. Because it touches so much, I run it the way I run a backend system: clear ownership, rules enforced in code, every change checked, failures planned for, and a record of what happened.
 
 [← Back to my profile](https://github.com/bnivibe)
 
