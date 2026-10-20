@@ -19,7 +19,7 @@ public class Dawn {
     // most of my professional code lives in private repositories
     List<String> sideProjects = List.of(
             "ai-trend-digest", "persona-debate-lab", "dawnbase",
-            "vancouver-room-hunt", "dawndeck", "Bloomlog");
+            "vancouver-room-hunt", "leetcode", "dawndeck", "Bloomlog");
 
     String openTo = "Backend and full-stack Software Engineer roles in Canada";
 }
@@ -40,9 +40,9 @@ flowchart LR
     C -.- G["Guard<br/>plugins"]
 ```
 
-- **Claude Code, customized** · 13 skills I built for study, research and note-keeping, plus three plugins with tests: one blocks commits and pushes to `main` and risky deletes, one masks secrets on screen, one shows the current branch above the prompt.
+- **Claude Code, customized** · 15 skills I built for study, research and note-keeping, plus three plugins with tests: one blocks commits and pushes to `main` and risky deletes, one masks secrets on screen, one shows the current branch above the prompt.
 - **Debates before big decisions** · I put real decisions through multi-persona AI debates and keep each persona's record against what happened next, so the next debate casts better. The method is public in [persona-debate-lab](https://github.com/bnivibe/persona-debate-lab).
-- **A pull request per change, even solo** · 200+ merged across my own repositories since March 2026.
+- **A pull request per change, even solo** · 250+ merged across my own repositories since March 2026.
 - **AI on a schedule** · two Claude cloud routines check out a repository and run every morning.
 - **Setup in git** · my Claude Code setup lives in a repository, and a bootstrap script restores it on a new machine.
 
@@ -69,7 +69,7 @@ flowchart LR
 
 How I argue a decision through before making it. Three to five personas from a 28-person roster, each a Claude subagent with a job and a known bias, propose ideas in parallel, then each attacks the strongest idea that is not its own. The moderator fact-checks every claim and synthesizes. I approve the cast and decide, and when the real outcome is in, each persona's scorecard is updated so the next cast picks better. Transcripts stay private; a privacy guard in the hooks and CI keeps personal details out of the public repo.
 
-<sub>Python · 106 tests · CI checks every commit</sub>
+<sub>Python · 128 tests · CI checks every commit</sub>
 
 ```mermaid
 flowchart LR
@@ -111,28 +111,44 @@ flowchart LR
     I -. corrections .-> S
 ```
 
+#### [leetcode](https://github.com/bnivibe/leetcode)
+
+Coding practice on LeetCode's Top Interview 150, started October 2026. I solve each problem by hand in the LeetCode editor, with no AI. The solutions go into the repo unchanged and under my name alone. Claude reads my submission history, every wrong answer and the change that fixed it, asks me why I changed the code when the history alone cannot say, and drafts the notes, which carry its co-author mark. The commit history shows which part is whose.
+
+<sub>Java</sub>
+
+```mermaid
+flowchart LR
+    S["I solve it<br/>no AI"] --> A["Accepted on<br/>LeetCode"]
+    A --> H["Claude reads<br/>submissions"]
+    H --> Q["Asks me why<br/>code changed"]
+    Q --> N["Notes by Claude,<br/>code by me"]
+    N --> P["PR to<br/>this repo"]
+```
+
 ### Private repositories
 
 These hold personal data (schedules, study notes, my own setup), so the code stays private. What each one does, and where Claude fits in:
 
 #### claude-config
 
-My Claude Code setup, kept as code: 13 skills, commands, agents, hooks and three tested plugins, restored onto a new machine by one bootstrap script. The skills cover what I do with Claude: research digests, interview and English practice, note-keeping and planning. The plugins are the guardrails behind the workflow diagram above: one denies commits and pushes to `main`, risky deletes and commits without Claude's co-author line; one masks secrets on screen; one shows the current branch above the prompt.
+My Claude Code setup, kept as code: 15 skills, commands, agents, hooks and three tested plugins, restored onto a new machine by one bootstrap script. The skills cover what I do with Claude: research digests, interview and English practice, note-keeping and planning. The plugins are the guardrails behind the workflow diagram above: one denies commits and pushes to `main`, risky deletes and commits without Claude's co-author line; one masks secrets on screen; one shows the current branch above the prompt.
 
-<sub>Python · Shell · TypeScript · 79 merged pull requests</sub>
+<sub>Python · Shell · TypeScript · 102 merged pull requests</sub>
 
 #### daily-routine
 
-My plan for the day, posted to Discord at 05:00 by a Claude cloud routine. The schedule, the day's English expressions and tongue twisters with their pronunciation all live in the repo as data, and tests keep the schedule consistent, so a date-specific change cannot point at a slot that does not exist. The same data builds a day-by-day study guide page.
+My plan for the day, posted to Discord at 05:00 by a Claude cloud routine. Each morning the routine has Claude write three Canadian expressions people really say, with their pronunciation and examples; a list of every expression sent so far lives on its own branch, so none repeats, and the stored list in the repo takes over if anything fails. The schedule and the tongue twisters live in the repo as data, and tests keep the schedule consistent. The same data builds a day-by-day study guide page.
 
-<sub>Python standard library · 93 tests</sub>
+<sub>Python standard library · 116 tests</sub>
 
 ```mermaid
 flowchart LR
-    R(["05:00 Claude<br/>routine"]) --> S["send_today.py"]
-    J["Schedule and<br/>expressions"] --> S
+    R(["05:00 Claude<br/>routine"]) --> W["Claude writes<br/>3 expressions"]
+    W --> S["send_today.py<br/>+ schedule"]
     S --> D["Discord"]
-    J --> G["Study guide<br/>page"]
+    S --> U["Sent list<br/>on a branch"]
+    U -. no repeats .-> W
 ```
 
 #### wiki
