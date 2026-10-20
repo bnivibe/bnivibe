@@ -4,6 +4,11 @@ I build with Claude Code. It is my assistant in nearly everything I do, and I ru
 
 **[How I work with AI →](https://github.com/bnivibe/bnivibe/blob/main/how-i-work-with-ai.md)**
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/repo-map-dark.svg">
+  <img src="assets/repo-map-light.svg" width="100%" alt="Map of my repositories. Claude Code with my claude-config setup (15+ skills, 3 guard plugins) is at the center and I decide. Four groups around it: Decide (persona-debate-lab, vancouver-room-hunt), Know (wiki, dawnbase), Learn (dawndeck, coding-practice) and Every morning (ai-trend-digest, daily-routine). Debate transcripts go to the wiki, dawndeck shows wiki pages to review, and daily-routine sets the day's coding practice.">
+</picture>
+
 ### Projects
 
 <table>
