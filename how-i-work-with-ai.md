@@ -65,7 +65,7 @@ Each automated job says what happens when something breaks, before it breaks.
 ### 5. Every result leaves a record
 
 - **In [coding-practice](https://github.com/bnivibe/coding-practice):** my solutions are committed under my name alone and Claude's notes carry its `Co-Authored-By` line, so the history shows whose work is whose.
-- **In [dawnbase](https://github.com/bnivibe/dawnbase):** when Claude does something unintended, the incident is written up in `docs/guardrails/` and the fix goes into the skill.
+- **In dawnbase** (private): when Claude does something unintended, the incident is written up in `docs/guardrails/` and the fix goes into the skill.
 - **In [persona-debate-lab](https://github.com/bnivibe/persona-debate-lab):** each persona is scored against what actually happened, so the next debate casts better.
 
 <sub>Backend habit: audit logs and blameless postmortems.</sub>

@@ -49,19 +49,12 @@ I build with Claude Code. It is my assistant in nearly everything I do, and I ru
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <b><a href="https://github.com/bnivibe/dawnbase">dawnbase</a></b><br>
-      A knowledge archive Claude writes from my sources.<br>
-      <sub><b>Claude</b> fetches, analyzes and writes each article with its sources<br>
-      <b>Me</b> the sources and publishing<br>
-      <b>Checked</b> an incident log for guardrails, Vitest and Playwright<br>
-      <i>Next.js · Supabase</i></sub>
-    </td>
-    <td width="50%" valign="top">
+    <td colspan="2" valign="top">
       <b>Private, on the same rules</b><br>
       <sub><b>claude-config</b> my Claude Code setup: 15+ skills, three tested guard plugins<br>
       <b>daily-routine</b> a morning plan, with three new expressions from Claude<br>
       <b>wiki</b> agents check each claim; I review twice before a commit<br>
+      <b>dawnbase</b> my writing desk: Claude drafts each post, only I change its status<br>
       <b>dawndeck</b> my practice corrections become review cards</sub>
     </td>
   </tr>
