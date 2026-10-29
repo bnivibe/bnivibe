@@ -27,8 +27,9 @@
 <rect x="674" y="78" width="212" height="28" rx="14" fill="#0d1117" stroke="#656c76" stroke-width="1.5" stroke-dasharray="4 3"/>
 <text x="688" y="97.5" font-size="15" fill="#9198a1">wiki</text>
 <text x="874" y="97" text-anchor="end" font-size="12" fill="#9198a1">private</text>
-<rect x="674" y="114" width="212" height="28" rx="14" fill="#0d1117" stroke="#4493f8" stroke-width="1.5"/>
-<text x="688" y="133.5" font-size="15" font-weight="600" fill="#4493f8">dawnbase</text>
+<rect x="674" y="114" width="212" height="28" rx="14" fill="#0d1117" stroke="#656c76" stroke-width="1.5" stroke-dasharray="4 3"/>
+<text x="688" y="133.5" font-size="15" fill="#9198a1">dawnbase</text>
+<text x="874" y="133" text-anchor="end" font-size="12" fill="#9198a1">private</text>
 <rect x="660" y="340" width="240" height="128" rx="12" fill="#151b23" stroke="#3d444d" stroke-width="1.5"/>
 <rect x="660" y="353" width="4" height="24" rx="2" fill="#4493f8"/>
 <text x="676" y="372" font-size="18" font-weight="700" fill="#4493f8">Learn</text>

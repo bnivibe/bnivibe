@@ -34,7 +34,7 @@ FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,
 # area: (x, y, [(repository, is_public)])
 CARDS = {
     "Decide": (LEFT_X, TOP_Y, [("persona-debate-lab", True), ("vancouver-room-hunt", True)]),
-    "Know": (RIGHT_X, TOP_Y, [("wiki", False), ("dawnbase", True)]),
+    "Know": (RIGHT_X, TOP_Y, [("wiki", False), ("dawnbase", False)]),
     "Learn": (RIGHT_X, BOTTOM_Y, [("dawndeck", False), ("coding-practice", True)]),
     "Every morning": (LEFT_X, BOTTOM_Y, [("ai-trend-digest", True), ("daily-routine", False)]),
 }
