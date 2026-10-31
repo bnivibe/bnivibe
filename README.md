@@ -1,4 +1,4 @@
-## Dawn Im
+## bnivibe
 
 I build with Claude Code. It is my assistant in nearly everything I do, and I run it like a backend system: I decide, Claude does the legwork, and guardrails, tests and reviews check both.
 
@@ -8,8 +8,18 @@ Six rules, each shown in a repository: I decide and Claude does the legwork, gua
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/repo-map-dark.svg">
-  <img src="assets/repo-map-light.svg" width="100%" alt="Map of my repositories. Claude Code with my claude-config setup (15+ skills, 3 guard plugins) is at the center and I decide. Four groups around it: Decide (persona-debate-lab, vancouver-room-hunt), Know (wiki, dawnbase), Learn (vancouver-month-2026, coding-practice) and Every morning (ai-trend-digest, daily-routine). Debate transcripts go to the wiki, and daily-routine sets the day's coding practice.">
+  <img src="assets/repo-map-light.svg" width="100%" alt="Mind map of my repositories. Claude Code with my claude-config setup (15+ skills, 3 guard plugins) is at the center, and I decide. Five branches: Decide (persona-debate-lab, vancouver-room-hunt), Build in bnitech-lab (bnitech-lab.github.io, vancouver-month-2026, 8 games from 2011 to 2017), Know (wiki, dawnbase), Every morning (ai-trend-digest, daily-routine) and Learn (coding-practice). Ideas adopted in persona-debate-lab become bnitech-lab work, debate transcripts go to the wiki, and daily-routine sets the day's coding practice.">
 </picture>
+
+### BNI Tech, my lab
+
+<a href="https://bnitech-lab.github.io"><img src="https://github.com/bnitech-lab.png?size=176" width="88" height="88" align="left" alt="BNI Tech logo: the letters BNI in pixel type above a yellow and black hazard stripe"></a>
+
+My first games in 2011 carried the name BNI Tech. It was never a company; today it is my lab: every project and idea since then on one page, by year and topic, and the place where new ideas start. AI personas argue an idea out with me at an idea meeting, and the ones I adopt get built and marked.
+
+**[Open the lab →](https://bnitech-lab.github.io)** · [Games](https://bnitech-lab.github.io/#topic=games) · [AI tools](https://bnitech-lab.github.io/#topic=ai) · [Web and backend](https://bnitech-lab.github.io/#topic=web) · [Apps](https://bnitech-lab.github.io/#topic=apps) · [Study](https://bnitech-lab.github.io/#topic=study) · [Life](https://bnitech-lab.github.io/#topic=life)
+
+<sub><b>Claude</b> builds the page from one data file and keeps each row in step with my records · <b>Me</b> every idea, which ones I build, and what stays private · <b>Checked</b> a data check, 40+ tests and CI on every pull request; rebuilt every day · <a href="https://github.com/bnitech-lab/bnitech-lab.github.io">source</a></sub>
 
 ### Projects
 
@@ -68,15 +78,5 @@ Six rules, each shown in a repository: I decide and Claude does the legwork, gua
     </td>
   </tr>
 </table>
-
-### BNI Tech, my lab
-
-<a href="https://bnitech-lab.github.io"><img src="https://github.com/bnitech-lab.png?size=176" width="88" height="88" align="left" alt="BNI Tech logo: the letters BNI in pixel type above a yellow and black hazard stripe"></a>
-
-My first games in 2011 carried the name BNI Tech. It was never a company; today it is my lab: every project and idea since then on one page, by year and topic, and the place where new ideas start. AI personas argue an idea out with me at an idea meeting, and the ones I adopt get built and marked.
-
-**[Open the lab →](https://bnitech-lab.github.io)** · [Games](https://bnitech-lab.github.io/#topic=games) · [AI tools](https://bnitech-lab.github.io/#topic=ai) · [Web and backend](https://bnitech-lab.github.io/#topic=web) · [Apps](https://bnitech-lab.github.io/#topic=apps) · [Study](https://bnitech-lab.github.io/#topic=study) · [Life](https://bnitech-lab.github.io/#topic=life)
-
-<sub><b>Claude</b> builds the page from one data file and keeps each row in step with my records · <b>Me</b> every idea, which ones I build, and what stays private · <b>Checked</b> a data check, 40+ tests and CI on every pull request; rebuilt every day · <a href="https://github.com/bnitech-lab/bnitech-lab.github.io">source</a></sub>
 
 <sub>[LinkedIn](https://www.linkedin.com/in/bnivibe) · [bnivibe333@gmail.com](mailto:bnivibe333@gmail.com)</sub>
