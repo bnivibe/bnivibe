@@ -1,4 +1,4 @@
-## bnivibe
+## Bnivibe
 
 I build with Claude Code. It is my assistant in nearly everything I do, and I run it like a backend system: I decide, Claude does the legwork, and guardrails, tests and reviews check both.
 
@@ -11,7 +11,7 @@ Six rules, each shown in a repository: I decide and Claude does the legwork, gua
   <img src="assets/repo-map-light.svg" width="100%" alt="Mind map of my repositories. Claude Code with my claude-config setup (15+ skills, 3 guard plugins) is at the center, and I decide. Five branches: Decide (persona-debate-lab, vancouver-room-hunt), Build in bnitech-lab (bnitech-lab.github.io, vancouver-month-2026, 8 games from 2011 to 2017), Know (wiki, dawnbase), Every morning (ai-trend-digest, daily-routine) and Learn (coding-practice). Ideas adopted in persona-debate-lab become bnitech-lab work, debate transcripts go to the wiki, and daily-routine sets the day's coding practice.">
 </picture>
 
-### BNI Tech, my lab
+### Bnitech Lab
 
 <a href="https://bnitech-lab.github.io"><img src="https://github.com/bnitech-lab.png?size=176" width="88" height="88" align="left" alt="BNI Tech logo: the letters BNI in pixel type above a yellow and black hazard stripe"></a>
 
