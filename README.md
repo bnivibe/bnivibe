@@ -65,6 +65,16 @@ I build with Claude Code. It is my assistant in nearly everything I do, and I ru
       <b>dawnbase</b> my writing desk: Claude drafts each post, only I change its status</sub>
     </td>
   </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <b><a href="https://bnitech-lab.github.io">BNI Tech, my lab</a></b> · <a href="https://github.com/bnitech-lab/bnitech-lab.github.io">source</a><br>
+      Every project and idea since my first games in 2011, on one page by year and topic. The name comes from those games; it is not a company.<br>
+      <sub><b>Claude</b> builds the page from one data file and keeps each row in step with my records<br>
+      <b>Me</b> every idea, which ones I build, and what stays private<br>
+      <b>Checked</b> a data check, 40+ tests and CI on every pull request; rebuilt every day<br>
+      <i>Python standard library · GitHub Pages</i></sub>
+    </td>
+  </tr>
 </table>
 
 <sub>[LinkedIn](https://www.linkedin.com/in/bnivibe) · [bnivibe333@gmail.com](mailto:bnivibe333@gmail.com)</sub>
