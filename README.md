@@ -2,7 +2,9 @@
 
 I build with Claude Code. It is my assistant in nearly everything I do, and I run it like a backend system: I decide, Claude does the legwork, and guardrails, tests and reviews check both.
 
-**[How I work with AI →](https://github.com/bnivibe/bnivibe/blob/main/how-i-work-with-ai.md)** · **[BNI Tech, my lab: every project and idea since 2011 →](https://bnitech-lab.github.io)**
+### How I work with AI
+
+Six rules, each shown in a repository: I decide and Claude does the legwork, guardrails are code, nothing lands unchecked, failure is planned for, every result leaves a record, and a question does not stop the work. **[Read how I work with AI →](https://github.com/bnivibe/bnivibe/blob/main/how-i-work-with-ai.md)**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/repo-map-dark.svg">
@@ -65,16 +67,14 @@ I build with Claude Code. It is my assistant in nearly everything I do, and I ru
       <b>dawnbase</b> my writing desk: Claude drafts each post, only I change its status</sub>
     </td>
   </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <b><a href="https://bnitech-lab.github.io">BNI Tech, my lab</a></b> · <a href="https://github.com/bnitech-lab/bnitech-lab.github.io">source</a><br>
-      Every project and idea since my first games in 2011, on one page by year and topic. The name comes from those games; it is not a company.<br>
-      <sub><b>Claude</b> builds the page from one data file and keeps each row in step with my records<br>
-      <b>Me</b> every idea, which ones I build, and what stays private<br>
-      <b>Checked</b> a data check, 40+ tests and CI on every pull request; rebuilt every day<br>
-      <i>Python standard library · GitHub Pages</i></sub>
-    </td>
-  </tr>
 </table>
+
+### BNI Tech, my lab
+
+My first games in 2011 carried the name BNI Tech. It was never a company; today it is my lab: every project and idea since then on one page, by year and topic, and the place where new ideas start. AI personas argue an idea out with me at an idea meeting, and the ones I adopt get built and marked.
+
+**[Open the lab →](https://bnitech-lab.github.io)** · [Games](https://bnitech-lab.github.io/#topic=games) · [AI tools](https://bnitech-lab.github.io/#topic=ai) · [Web and backend](https://bnitech-lab.github.io/#topic=web) · [Apps](https://bnitech-lab.github.io/#topic=apps) · [Study](https://bnitech-lab.github.io/#topic=study) · [Life](https://bnitech-lab.github.io/#topic=life)
+
+<sub><b>Claude</b> builds the page from one data file and keeps each row in step with my records · <b>Me</b> every idea, which ones I build, and what stays private · <b>Checked</b> a data check, 40+ tests and CI on every pull request; rebuilt every day · <a href="https://github.com/bnitech-lab/bnitech-lab.github.io">source</a></sub>
 
 <sub>[LinkedIn](https://www.linkedin.com/in/bnivibe) · [bnivibe333@gmail.com](mailto:bnivibe333@gmail.com)</sub>
