@@ -2,7 +2,7 @@
 
 I build with Claude Code. It is my assistant in nearly everything I do, and I run it like a backend system: I decide, Claude does the legwork, and guardrails, tests and reviews check both.
 
-**[How I work with AI →](https://github.com/bnivibe/bnivibe/blob/main/how-i-work-with-ai.md)**
+**[How I work with AI →](https://github.com/bnivibe/bnivibe/blob/main/how-i-work-with-ai.md)** · **[BNI Tech, my lab: every project and idea since 2011 →](https://bnitech-lab.github.io)**
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/repo-map-dark.svg">

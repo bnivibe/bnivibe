@@ -80,7 +80,7 @@ Work is split into small tasks on a board. When Claude needs my answer, it write
 
 ## From an idea to a repository
 
-New projects start in a meeting, not a ticket. AI personas in [persona-debate-lab](https://github.com/bnivibe/persona-debate-lab) argue over an idea and stop to ask me what only I know. When I adopt an idea, that is the start signal: Claude writes a plan with recommended defaults, opens a repository, builds the smallest version I can try, and changes it after I play it. The repository goes public only when I say so.
+New projects start in a meeting, not a ticket. AI personas in [persona-debate-lab](https://github.com/bnivibe/persona-debate-lab) argue over an idea and stop to ask me what only I know. When I adopt an idea, that is the start signal: Claude writes a plan with recommended defaults, opens a repository, builds the smallest version I can try, and changes it after I play it. The repository goes public only when I say so, and each idea gets a row on my [lab page](https://bnitech-lab.github.io), built or not.
 
 vancouver-month-2026 went this way: a debate meeting on 2026-10-28, a plan I accepted on 2026-10-30, and a public repository the same day. The steps it took are now shared instructions that every new build session reads.
 
