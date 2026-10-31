@@ -35,7 +35,7 @@ FONT = "-apple-system,BlinkMacSystemFont,'Segoe UI','Noto Sans',Helvetica,Arial,
 CARDS = {
     "Decide": (LEFT_X, TOP_Y, [("persona-debate-lab", True), ("vancouver-room-hunt", True)]),
     "Know": (RIGHT_X, TOP_Y, [("wiki", False), ("dawnbase", False)]),
-    "Learn": (RIGHT_X, BOTTOM_Y, [("dawndeck", False), ("coding-practice", True)]),
+    "Learn": (RIGHT_X, BOTTOM_Y, [("vancouver-month-2026", True), ("coding-practice", True)]),
     "Every morning": (LEFT_X, BOTTOM_Y, [("ai-trend-digest", True), ("daily-routine", False)]),
 }
 
@@ -122,12 +122,6 @@ def draw(theme):
     y = chip_y(TOP_Y, 0) + 14
     line(LEFT_X + CARD_W - 14, y, RIGHT_X + 14, y)
     label(HUB_X, y - 8, "debate transcripts")
-    # wiki -> dawndeck, around the right edge
-    edge = RIGHT_X + CARD_W + 22
-    y1, y2 = chip_y(TOP_Y, 0) + 14, chip_y(BOTTOM_Y, 0) + 14
-    add(f'<path d="M{RIGHT_X + CARD_W - 14},{y1} H{edge} V{y2} H{RIGHT_X + CARD_W - 12}" fill="none" '
-        f'stroke="{c["flow"]}" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#arrow)"/>')
-    label(edge - 8, HUB_Y + 5, "pages to review", "end")
     # daily-routine -> coding-practice
     y = chip_y(BOTTOM_Y, 1) + 14
     line(LEFT_X + CARD_W - 14, y, RIGHT_X + 14, y)

@@ -6,7 +6,7 @@ I build with Claude Code. It is my assistant in nearly everything I do, and I ru
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/repo-map-dark.svg">
-  <img src="assets/repo-map-light.svg" width="100%" alt="Map of my repositories. Claude Code with my claude-config setup (15+ skills, 3 guard plugins) is at the center and I decide. Four groups around it: Decide (persona-debate-lab, vancouver-room-hunt), Know (wiki, dawnbase), Learn (dawndeck, coding-practice) and Every morning (ai-trend-digest, daily-routine). Debate transcripts go to the wiki, dawndeck shows wiki pages to review, and daily-routine sets the day's coding practice.">
+  <img src="assets/repo-map-light.svg" width="100%" alt="Map of my repositories. Claude Code with my claude-config setup (15+ skills, 3 guard plugins) is at the center and I decide. Four groups around it: Decide (persona-debate-lab, vancouver-room-hunt), Know (wiki, dawnbase), Learn (vancouver-month-2026, coding-practice) and Every morning (ai-trend-digest, daily-routine). Debate transcripts go to the wiki, and daily-routine sets the day's coding practice.">
 </picture>
 
 ### Projects
@@ -18,7 +18,7 @@ I build with Claude Code. It is my assistant in nearly everything I do, and I ru
       A daily AI news digest on Discord, unattended since September 2026.<br>
       <sub><b>Claude</b> ranks the stories several sources agree on and writes the summaries<br>
       <b>Me</b> the sources and the taste rules<br>
-      <b>Checked</b> 79 tests, Discord limit checks, a failure notice<br>
+      <b>Checked</b> 80+ tests, Discord limit checks, a failure notice<br>
       <i>Python</i></sub>
     </td>
     <td width="50%" valign="top">
@@ -45,17 +45,24 @@ I build with Claude Code. It is my assistant in nearly everything I do, and I ru
       <sub><b>Me</b> the solutions, with no AI<br>
       <b>Claude</b> reads my submissions and drafts the notes<br>
       <b>Checked</b> the commit history keeps code and notes apart<br>
-      <i>Java</i></sub>
+      <i>Java · Kotlin</i></sub>
     </td>
   </tr>
   <tr>
-    <td colspan="2" valign="top">
+    <td width="50%" valign="top">
+      <b><a href="https://github.com/bnitech-lab/vancouver-month-2026">vancouver-month-2026</a></b><br>
+      A small Kotlin game: one month as a newcomer in Vancouver, one action a day. Work in progress.<br>
+      <sub><b>Claude</b> writes the code and the tests<br>
+      <b>Me</b> the idea, every play-through and what changes next<br>
+      <b>Checked</b> 300+ tests, CI on every pull request<br>
+      <i>Kotlin</i></sub>
+    </td>
+    <td width="50%" valign="top">
       <b>Private, on the same rules</b><br>
       <sub><b>claude-config</b> my Claude Code setup: 15+ skills, three tested guard plugins<br>
       <b>daily-routine</b> a morning plan, with three new expressions from Claude<br>
       <b>wiki</b> agents check each claim; I review twice before a commit<br>
-      <b>dawnbase</b> my writing desk: Claude drafts each post, only I change its status<br>
-      <b>dawndeck</b> my practice corrections become review cards</sub>
+      <b>dawnbase</b> my writing desk: Claude drafts each post, only I change its status</sub>
     </td>
   </tr>
 </table>
