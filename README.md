@@ -1,4 +1,4 @@
-## Bnivibe
+# Bnivibe
 
 I build with Claude Code. It is my assistant in nearly everything I do, and I run it like a backend system: I decide, Claude does the legwork, and guardrails, tests and reviews check both.
 
