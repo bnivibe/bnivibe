@@ -71,6 +71,8 @@ Six rules, each shown in a repository: I decide and Claude does the legwork, gua
 
 ### BNI Tech, my lab
 
+<a href="https://bnitech-lab.github.io"><img src="https://github.com/bnitech-lab.png?size=176" width="88" height="88" align="left" alt="BNI Tech logo: the letters BNI in pixel type above a yellow and black hazard stripe"></a>
+
 My first games in 2011 carried the name BNI Tech. It was never a company; today it is my lab: every project and idea since then on one page, by year and topic, and the place where new ideas start. AI personas argue an idea out with me at an idea meeting, and the ones I adopt get built and marked.
 
 **[Open the lab →](https://bnitech-lab.github.io)** · [Games](https://bnitech-lab.github.io/#topic=games) · [AI tools](https://bnitech-lab.github.io/#topic=ai) · [Web and backend](https://bnitech-lab.github.io/#topic=web) · [Apps](https://bnitech-lab.github.io/#topic=apps) · [Study](https://bnitech-lab.github.io/#topic=study) · [Life](https://bnitech-lab.github.io/#topic=life)
