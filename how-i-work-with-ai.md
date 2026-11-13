@@ -16,7 +16,7 @@ flowchart LR
     R -. results, failure notices .-> I
 ```
 
-I set the goal and the rules. Claude Code does the work with skills I wrote for each kind of task, inside guard plugins that deny unsafe steps. Every change goes through a branch and a pull request with tests, even when I work alone: 300+ merged across my repositories since March 2026. Two Claude cloud routines check out a repository and run every morning, and their results and failure notices come back to me.
+I set the goal and the rules. Claude Code does the work with skills I wrote for each kind of task, inside guard plugins that deny unsafe steps. Every change goes through a branch and a pull request with tests, even when I work alone: 600+ merged across my repositories since March 2026. Two Claude cloud routines check out a repository and run every morning, and their results and failure notices come back to me.
 
 ## Six rules
 
@@ -31,7 +31,7 @@ Claude searches, reads, drafts, tests and writes things up. Anything that speaks
 
 ### 2. Guardrails are code, not promises
 
-A rule I care about is enforced by a hook that runs before the command, not by asking nicely in a prompt. Three plugins, each with tests:
+A rule I care about is enforced by a hook that runs before the command, not by asking nicely in a prompt. Three guard plugins, each with tests:
 
 - **dawn-guard** denies commits while on `main`, pushes to `main`, recursive deletes outside temp folders, commits without Claude's co-author line (my own coding-practice solutions are the one exception), and any call that would send, forward, delete or trash email. If the hook itself errors, it denies.
 - **secret-redact** masks tokens and keys in what the screen draws, so a session can be watched from a phone or shared.
@@ -86,4 +86,4 @@ vancouver-month-2026 went this way: a debate meeting on 2026-10-28, a plan I acc
 
 ## Where the setup lives
 
-My Claude Code setup, with 15+ skills, commands, agents, hooks and the three plugins, is a private repository, claude-config, with 200+ merged pull requests. One bootstrap script restores it onto a new machine.
+My Claude Code setup, with 20+ skills, commands, agents, hooks and four plugins (the three guards, and one that tells Claude when its context has grown large), is a private repository, claude-config, with 250+ merged pull requests. One bootstrap script restores it onto a new machine.
