@@ -23,7 +23,7 @@
 <circle cx="530" cy="280" r="72" fill="#2a1a14" stroke="#e07a5f" stroke-width="2"/>
 <text x="530" y="271" text-anchor="middle" font-size="21" font-weight="700" fill="#e6edf3">Claude Code</text>
 <text x="530" y="295" text-anchor="middle" font-size="14" fill="#9198a1">claude-config</text>
-<text x="530" y="314" text-anchor="middle" font-size="14" fill="#9198a1">15+ skills</text>
+<text x="530" y="314" text-anchor="middle" font-size="14" fill="#9198a1">20+ skills</text>
 <rect x="320.9" y="133.0" width="89.1" height="34" rx="17.0" fill="#151b23" stroke="#ab7df8" stroke-width="2"/>
 <text x="365.4" y="156" text-anchor="middle" font-size="17" font-weight="700" fill="#ab7df8">Decide</text>
 <rect x="105.7" y="116.0" width="179.2" height="28" rx="14" fill="#0d1117" stroke="#4493f8" stroke-width="1.5"/>

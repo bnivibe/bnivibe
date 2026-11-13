@@ -8,7 +8,7 @@ Six rules, each shown in a repository: I decide and Claude does the legwork, gua
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/repo-map-dark.svg">
-  <img src="assets/repo-map-light.svg" width="100%" alt="Mind map of my repositories. Claude Code with my claude-config setup (15+ skills, 3 guard plugins) is at the center, and I decide. Five branches: Decide (persona-debate-lab, vancouver-room-hunt), Build in bnitech-lab (bnitech-lab.github.io, vancouver-month-2026, 8 games from 2011 to 2017), Know (wiki, dawnbase), Every morning (ai-trend-digest, daily-routine) and Learn (coding-practice). Ideas adopted in persona-debate-lab become bnitech-lab work, debate transcripts go to the wiki, and daily-routine sets the day's coding practice.">
+  <img src="assets/repo-map-light.svg" width="100%" alt="Mind map of my repositories. Claude Code with my claude-config setup (20+ skills, 3 guard plugins) is at the center, and I decide. Five branches: Decide (persona-debate-lab, vancouver-room-hunt), Build in bnitech-lab (bnitech-lab.github.io, vancouver-month-2026, 8 games from 2011 to 2017), Know (wiki, dawnbase), Every morning (ai-trend-digest, daily-routine) and Learn (coding-practice). Ideas adopted in persona-debate-lab become bnitech-lab work, debate transcripts go to the wiki, and daily-routine sets the day's coding practice.">
 </picture>
 
 ### BNI Tech Lab
@@ -66,12 +66,12 @@ My first games in 2011 carried the name BNI Tech. It was never a company; today 
       A small Kotlin game: one month as a newcomer in Vancouver, one action a day. Work in progress.<br>
       <sub><b>Claude</b> writes the code and the tests<br>
       <b>Me</b> the idea, every play-through and what changes next<br>
-      <b>Checked</b> 300+ tests, CI on every pull request<br>
+      <b>Checked</b> 700+ tests, CI on every pull request<br>
       <i>Kotlin</i></sub>
     </td>
     <td width="50%" valign="top">
       <b>Private, on the same rules</b><br>
-      <sub><b>claude-config</b> my Claude Code setup: 15+ skills, three tested guard plugins<br>
+      <sub><b>claude-config</b> my Claude Code setup: 20+ skills, three tested guard plugins<br>
       <b>daily-routine</b> a morning plan, with three new expressions from Claude<br>
       <b>wiki</b> agents check each claim; I review twice before a commit<br>
       <b>dawnbase</b> my writing desk: Claude drafts each post, only I change its status</sub>

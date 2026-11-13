@@ -114,7 +114,7 @@ def draw(theme):
     add(f'<text x="{HUB_X}" y="{HUB_Y + 15}" text-anchor="middle" font-size="14" '
         f'fill="{c["muted"]}">claude-config</text>')
     add(f'<text x="{HUB_X}" y="{HUB_Y + 34}" text-anchor="middle" font-size="14" '
-        f'fill="{c["muted"]}">15+ skills</text>')
+        f'fill="{c["muted"]}">20+ skills</text>')
 
     # Topics as pills, repositories as chips: solid for public, dashed for private.
     for topic, side, y, caption, _ in TOPICS:
