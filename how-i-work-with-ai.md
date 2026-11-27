@@ -16,7 +16,7 @@ flowchart LR
     R -. results, failure notices .-> I
 ```
 
-I set the goal and the rules. Claude Code does the work with skills I wrote for each kind of task, inside guard plugins that deny unsafe steps. Every change goes through a branch and a pull request with tests, even when I work alone: 600+ merged across my repositories since March 2026. Two Claude cloud routines check out a repository and run every morning, and their results and failure notices come back to me.
+I set the goal and the rules. Claude Code does the work with skills I wrote for each kind of task, inside guard plugins that deny unsafe steps. Every change goes through a branch and a pull request with tests, even when I work alone: 850+ merged across my repositories since March 2026. Three Claude cloud routines run every morning, and their results and failure notices come back to me.
 
 ## Six rules
 

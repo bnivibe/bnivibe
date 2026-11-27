@@ -41,7 +41,7 @@ TOPICS = [
                                           ("8 games, 2011–2017", True)]),
     ("Know", 1, 110, None, [("wiki", False), ("dawnbase", False)]),
     ("Every morning", 1, 280, None, [("ai-trend-digest", True), ("daily-routine", False)]),
-    ("Learn", 1, 440, None, [("coding-practice", True)]),
+    ("Learn", 1, 440, None, [("coding-practice", True), ("lessontote", False)]),
 ]
 
 
